@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Source+Sans+Pro:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Macondo&family=Raleway:wght@200&family=Source+Sans+Pro:wght@200&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.sidebar {
+  font-family: Macondo;
+  background-color: papayawhip;
+  width: 20%;
+  height: 100%;
+  transition: transform 0.4s ease-in;
+  position: fixed;
+}
+.sidebar nav {
+  padding-left: 15%;
+
+}
+.sidebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding-top: 15%;
+  padding-bottom: 10%;
+  
+}
+.sidebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  background-color: aqua;
+  width: 100%;
+}
+.container {
+  background-color: rgb(180, 163, 163);
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+.infoc {
+  background-color: rgb(180, 163, 163);
+  margin: 50px auto;
+  margin-left: 22%;
+  height: 80vh;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  /* position: absolute; */
+  /* font-family: Source Sans Pro; */
+  font-family: Macondo;
+}
+
+.devinfo {
+  /* display: flex; */
+  justify-content: center;
+  flex-direction: column;
+  font-size: 5vh;
+  margin-top: 10%;
+   
+
+}
+.about {
+  font-family: Raleway;
+}
+.name {
+  font-weight: bold;
+  font-family: Macondo;
+}
+.bu {
+  margin: 2vh;
+  padding: 1.5vh;
+  border-radius: 3vh;
+  /* color: aquamarine; */
+  background-color: beige;
+  cursor: pointer;
+}
+.bu a {
+  text-decoration: none;
+  color: black;
+}
+.but :hover {
+  color: beige;
+  background-color: black;
+}
+.hamb{
+  position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left: 6px;
+}
+
+.main h3 {
+  padding: 10vh;
+  text-align: center;
+  font-family: Raleway;
+  /* text-orientation: ; */
+}
+.main {
+  background-color: rgb(212, 211, 211);
+}
+
+.muted {
+  padding: 10px;
+  margin: 3px;
+  font-size: 15px;
+  color: rgb(13, 13, 14);
+}
+.form-control {
+  padding: 10px;
+  margin: 10px;
+}
+
+.btn a {
+  font-size: 15px;
+  text-decoration: none;
+  padding: 30px;
+  margin: 10px;
+  cursor: pointer;
+
+  color: black;
+}
+.blogg {
+  font-size: 3vh;
+  font-family: Macondo;
+  margin: 20px;
+  padding: 10px;
+  height: 80vh;
+}
+
+.ht {
+  margin-left: 10vh;
+  width: 52%;
+  height: 2vh;
+  border-radius: 5px;
+  background-color: rgb(148, 87, 87);
+}
+.htt {
+  margin-left: 10vh;
+  width: 62%;
+  height: 2vh;
+  border-radius: 5px;
+  background-color: rgb(126, 50, 50);
+}
+.httt {
+  margin-left: 10vh;
+  width: 42%;
+  
+  background-color: rgb(85, 104, 75);
+  height: 2vh;
+  border-radius: 5px;
+}
+
+.htttt {
+  margin-left: 10vh;
+  width: 22vh;
+  height: 2vh;
+  border-radius: 5px;
+  background-color: rgb(63, 46, 52);
+}
+.sidebargo  {
+  transform: translate(-203px, 0px);
+  position: absolute;
+}
+@media (max-width: 1000px) {
+  * {
+    background-color: rgb(185, 182, 182);
+  }
+  .sidebar {
+    transform: translate(-203px, 0px);
+    position: absolute;
+  }
+  .devimg{
+    display: none;
+  }
+}
+.mainnn{
+  margin: 80px;
+  margin-left: 300px;
+}
+.mainnn h1{
+  margin: 10px;
+}
+.mainnn h4{
+  margin: 20px;
+}
+
+.devimg{
+  margin-top: 10%;
+
+
+}
